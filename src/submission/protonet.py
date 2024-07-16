@@ -11,6 +11,9 @@ from collections import defaultdict
 import torch.multiprocessing
 torch.multiprocessing.set_sharing_strategy('file_system')
 
+import torch._dynamo
+torch._dynamo.config.suppress_errors = True
+
 from torch import nn
 import torch.nn.functional as F  # pylint: disable=unused-import
 from google_drive_downloader import GoogleDriveDownloader as gdd
