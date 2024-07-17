@@ -1,0 +1,139 @@
+nohup: ignoring input
+Namespace(log_dir=None, num_way=5, num_support=1, num_query=15, learning_rate=0.001, batch_size=16, num_train_iterations=5000, test=False, checkpoint_step=-1, num_workers=2, compile=True, backend='inductor', cache=False, device='cpu')
+Using device:  cpu
+log_dir: ./logs/protonet/omniglot.way_5.support_1.query_15.lr_0.001.batch_size_16
+ProtoNetNetwork model compiled
+Checkpoint loading skipped.
+Training on tasks with composition num_way=5, num_support=1, num_query=15
+Starting training at iteration 0.
+Iteration 0: loss: 1.143, support accuracy: 1.000, query accuracy: 0.587
+Validation: loss: 1.005, support accuracy: 1.000, query accuracy: 0.635
+Saved checkpoint.
+Iteration 10: loss: 0.461, support accuracy: 1.000, query accuracy: 0.875
+Iteration 20: loss: 0.335, support accuracy: 1.000, query accuracy: 0.884
+Iteration 30: loss: 0.215, support accuracy: 1.000, query accuracy: 0.947
+Iteration 40: loss: 0.204, support accuracy: 1.000, query accuracy: 0.947
+Iteration 50: loss: 0.196, support accuracy: 1.000, query accuracy: 0.939
+Validation: loss: 0.196, support accuracy: 1.000, query accuracy: 0.943
+Iteration 60: loss: 0.132, support accuracy: 1.000, query accuracy: 0.967
+Iteration 70: loss: 0.153, support accuracy: 1.000, query accuracy: 0.961
+Iteration 80: loss: 0.178, support accuracy: 1.000, query accuracy: 0.944
+Iteration 90: loss: 0.203, support accuracy: 1.000, query accuracy: 0.972
+Iteration 100: loss: 0.134, support accuracy: 1.000, query accuracy: 0.964
+Validation: loss: 0.176, support accuracy: 1.000, query accuracy: 0.944
+Saved checkpoint.
+Iteration 110: loss: 0.087, support accuracy: 1.000, query accuracy: 0.983
+Iteration 120: loss: 0.067, support accuracy: 1.000, query accuracy: 0.984
+Iteration 130: loss: 0.117, support accuracy: 1.000, query accuracy: 0.964
+Iteration 140: loss: 0.148, support accuracy: 1.000, query accuracy: 0.967
+Iteration 150: loss: 0.095, support accuracy: 1.000, query accuracy: 0.973
+Validation: loss: 0.108, support accuracy: 1.000, query accuracy: 0.970
+Iteration 160: loss: 0.120, support accuracy: 1.000, query accuracy: 0.960
+Iteration 170: loss: 0.108, support accuracy: 1.000, query accuracy: 0.968
+Iteration 180: loss: 0.086, support accuracy: 1.000, query accuracy: 0.977
+Iteration 190: loss: 0.138, support accuracy: 1.000, query accuracy: 0.959
+Iteration 200: loss: 0.071, support accuracy: 1.000, query accuracy: 0.978
+Validation: loss: 0.117, support accuracy: 1.000, query accuracy: 0.964
+Saved checkpoint.
+Iteration 210: loss: 0.069, support accuracy: 1.000, query accuracy: 0.985
+Iteration 220: loss: 0.081, support accuracy: 1.000, query accuracy: 0.979
+Iteration 230: loss: 0.077, support accuracy: 1.000, query accuracy: 0.978
+Iteration 240: loss: 0.078, support accuracy: 1.000, query accuracy: 0.976
+Iteration 250: loss: 0.085, support accuracy: 1.000, query accuracy: 0.976
+Validation: loss: 0.087, support accuracy: 1.000, query accuracy: 0.974
+Iteration 260: loss: 0.069, support accuracy: 1.000, query accuracy: 0.981
+Iteration 270: loss: 0.075, support accuracy: 1.000, query accuracy: 0.981
+Iteration 280: loss: 0.141, support accuracy: 1.000, query accuracy: 0.953
+Iteration 290: loss: 0.058, support accuracy: 1.000, query accuracy: 0.983
+Iteration 300: loss: 0.063, support accuracy: 1.000, query accuracy: 0.981
+Validation: loss: 0.086, support accuracy: 1.000, query accuracy: 0.974
+Saved checkpoint.
+Iteration 310: loss: 0.041, support accuracy: 1.000, query accuracy: 0.988
+Iteration 320: loss: 0.064, support accuracy: 1.000, query accuracy: 0.983
+Iteration 330: loss: 0.069, support accuracy: 1.000, query accuracy: 0.983
+Iteration 340: loss: 0.050, support accuracy: 1.000, query accuracy: 0.988
+Iteration 350: loss: 0.057, support accuracy: 1.000, query accuracy: 0.987
+Validation: loss: 0.105, support accuracy: 1.000, query accuracy: 0.970
+Iteration 360: loss: 0.084, support accuracy: 1.000, query accuracy: 0.975
+Iteration 370: loss: 0.075, support accuracy: 1.000, query accuracy: 0.973
+Iteration 380: loss: 0.045, support accuracy: 1.000, query accuracy: 0.994
+Iteration 390: loss: 0.052, support accuracy: 1.000, query accuracy: 0.985
+Iteration 400: loss: 0.054, support accuracy: 1.000, query accuracy: 0.991
+Validation: loss: 0.086, support accuracy: 1.000, query accuracy: 0.975
+Saved checkpoint.
+Iteration 410: loss: 0.033, support accuracy: 1.000, query accuracy: 0.997
+Iteration 420: loss: 0.043, support accuracy: 1.000, query accuracy: 0.991
+Iteration 430: loss: 0.040, support accuracy: 1.000, query accuracy: 0.988
+Iteration 440: loss: 0.061, support accuracy: 1.000, query accuracy: 0.986
+Iteration 450: loss: 0.067, support accuracy: 1.000, query accuracy: 0.982
+Validation: loss: 0.072, support accuracy: 1.000, query accuracy: 0.979
+Iteration 460: loss: 0.071, support accuracy: 1.000, query accuracy: 0.978
+Iteration 470: loss: 0.035, support accuracy: 1.000, query accuracy: 0.991
+Iteration 480: loss: 0.084, support accuracy: 1.000, query accuracy: 0.970
+Iteration 490: loss: 0.069, support accuracy: 1.000, query accuracy: 0.979
+Iteration 500: loss: 0.039, support accuracy: 1.000, query accuracy: 0.990
+Validation: loss: 0.074, support accuracy: 1.000, query accuracy: 0.978
+Saved checkpoint.
+Iteration 510: loss: 0.048, support accuracy: 1.000, query accuracy: 0.987
+Iteration 520: loss: 0.056, support accuracy: 1.000, query accuracy: 0.982
+Iteration 530: loss: 0.045, support accuracy: 1.000, query accuracy: 0.985
+Iteration 540: loss: 0.023, support accuracy: 1.000, query accuracy: 0.996
+Iteration 550: loss: 0.024, support accuracy: 1.000, query accuracy: 0.997
+Validation: loss: 0.055, support accuracy: 1.000, query accuracy: 0.984
+Iteration 560: loss: 0.035, support accuracy: 1.000, query accuracy: 0.989
+Iteration 570: loss: 0.035, support accuracy: 1.000, query accuracy: 0.990
+Iteration 580: loss: 0.025, support accuracy: 1.000, query accuracy: 0.998
+Iteration 590: loss: 0.061, support accuracy: 1.000, query accuracy: 0.980
+Iteration 600: loss: 0.044, support accuracy: 1.000, query accuracy: 0.992
+Validation: loss: 0.070, support accuracy: 1.000, query accuracy: 0.978
+Saved checkpoint.
+Iteration 610: loss: 0.028, support accuracy: 1.000, query accuracy: 0.995
+Iteration 620: loss: 0.035, support accuracy: 1.000, query accuracy: 0.991
+Iteration 630: loss: 0.030, support accuracy: 1.000, query accuracy: 0.992
+Iteration 640: loss: 0.034, support accuracy: 1.000, query accuracy: 0.991
+Iteration 650: loss: 0.029, support accuracy: 1.000, query accuracy: 0.993
+Validation: loss: 0.069, support accuracy: 1.000, query accuracy: 0.978
+Iteration 660: loss: 0.038, support accuracy: 1.000, query accuracy: 0.990
+Iteration 670: loss: 0.035, support accuracy: 1.000, query accuracy: 0.993
+Iteration 680: loss: 0.053, support accuracy: 1.000, query accuracy: 0.981
+Iteration 690: loss: 0.032, support accuracy: 1.000, query accuracy: 0.993
+Iteration 700: loss: 0.026, support accuracy: 1.000, query accuracy: 0.994
+Validation: loss: 0.073, support accuracy: 1.000, query accuracy: 0.976
+Saved checkpoint.
+Iteration 710: loss: 0.041, support accuracy: 1.000, query accuracy: 0.993
+Iteration 720: loss: 0.036, support accuracy: 1.000, query accuracy: 0.991
+Iteration 730: loss: 0.053, support accuracy: 1.000, query accuracy: 0.984
+Iteration 740: loss: 0.040, support accuracy: 1.000, query accuracy: 0.992
+Iteration 750: loss: 0.038, support accuracy: 1.000, query accuracy: 0.990
+Validation: loss: 0.061, support accuracy: 1.000, query accuracy: 0.981
+Iteration 760: loss: 0.033, support accuracy: 1.000, query accuracy: 0.988
+Iteration 770: loss: 0.033, support accuracy: 1.000, query accuracy: 0.989
+Iteration 780: loss: 0.019, support accuracy: 1.000, query accuracy: 0.997
+Iteration 790: loss: 0.054, support accuracy: 1.000, query accuracy: 0.976
+Iteration 800: loss: 0.030, support accuracy: 1.000, query accuracy: 0.993
+Validation: loss: 0.049, support accuracy: 1.000, query accuracy: 0.986
+Saved checkpoint.
+Iteration 810: loss: 0.031, support accuracy: 1.000, query accuracy: 0.990
+Iteration 820: loss: 0.036, support accuracy: 1.000, query accuracy: 0.988
+Iteration 830: loss: 0.033, support accuracy: 1.000, query accuracy: 0.992
+Iteration 840: loss: 0.030, support accuracy: 1.000, query accuracy: 0.993
+Iteration 850: loss: 0.035, support accuracy: 1.000, query accuracy: 0.990
+Validation: loss: 0.057, support accuracy: 1.000, query accuracy: 0.981
+Iteration 860: loss: 0.034, support accuracy: 1.000, query accuracy: 0.992
+Iteration 870: loss: 0.026, support accuracy: 1.000, query accuracy: 0.993
+Iteration 880: loss: 0.026, support accuracy: 1.000, query accuracy: 0.994
+Iteration 890: loss: 0.025, support accuracy: 1.000, query accuracy: 0.994
+Iteration 900: loss: 0.024, support accuracy: 1.000, query accuracy: 0.996
+Validation: loss: 0.045, support accuracy: 1.000, query accuracy: 0.986
+Saved checkpoint.
+Iteration 910: loss: 0.028, support accuracy: 1.000, query accuracy: 0.991
+Iteration 920: loss: 0.012, support accuracy: 1.000, query accuracy: 0.998
+Iteration 930: loss: 0.034, support accuracy: 1.000, query accuracy: 0.988
+Iteration 940: loss: 0.018, support accuracy: 1.000, query accuracy: 0.998
+Iteration 950: loss: 0.026, support accuracy: 1.000, query accuracy: 0.993
+Validation: loss: 0.044, support accuracy: 1.000, query accuracy: 0.986
+Iteration 960: loss: 0.037, support accuracy: 1.000, query accuracy: 0.987
+Iteration 970: loss: 0.023, support accuracy: 1.000, query accuracy: 0.995
+Iteration 980: loss: 0.051, support accuracy: 1.000, query accuracy: 0.980
+Iteration 990: loss: 0.023, support accuracy: 1.000, query accuracy: 0.996
+Iteration 1000: loss: 0.032, support accuracy: 1.000, query accuracy: 0.993
